@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Registro</title>
+    <link rel="stylesheet" href="Style.css">
+
+</head>
+<body>
+    <form id="registroForm">
+        <label for="nombres">Nombres:</label>
+        <input type="text" id="nombres" name="nombres"  placeholder="Ingrese sus nombres" required>
+
+        <label for="apellidos">Apellidos: </label>
+        <input type="text" id="apellidos" name="apellidos"  placeholder="Ingrese sus apellidos" required>
+
+        <label for="correo">Correo: </label>
+        <input type="email" id="correo" name="correo" placeholder="Ingrese su correo electrónico" required>
+
+        <label for="contrasena">Contraseña: </label>
+        <input type="password" id="contrasena" name="contrasena" placeholder="Ingrese su contraseña" required>
+
+        <button type="button" onclick="enviarFormulario()">Registrarse</button>
+    </form>
+
+
+    <script src="formulario.js"></script>
+
+</body>
+</html>
